@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ReproductorActivity">
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/pattern" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#b2000000"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+
+            <TextView
+                android:id="@+id/tituloCancion"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="@string/nombreCancion"
+                android:textAlignment="center"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPagerAlbum"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="55"
+                android:paddingHorizontal="50dp"
+                tools:background="@drawable/album2"/>
+
+
+            <LinearLayout
+                android:id="@+id/barraControlReproduccion"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="15"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/botonRetroceder10"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_retroceder_10" />
+
+
+                <ImageView
+                    android:id="@+id/botonPlayPausa"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_play" />
+
+
+                <ImageView
+                    android:id="@+id/botonAvanzar10"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_avanzar_10" />
+
+            </LinearLayout>
+
+
+            <rm.com.audiowave.AudioWaveView
+                android:id="@+id/reproduccion"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="35dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="20"
+                app:animateExpansion="true"
+                app:chunkHeight="50dp"
+                app:chunkRadius="1dp"
+                app:chunkSpacing="1dp"
+                app:chunkWidth="3dp"
+                app:minChunkHeight="2dp"
+                app:touchable="true"
+                app:waveColor="@color/colorAccentDark" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/sharebuttom"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="80dp"
+                    android:src="@drawable/ic_share_final_24dp" />
+
+                <ImageView
+                    android:id="@+id/botonAgregarAPlaylistReproductor"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="80dp"
+                    android:src="@drawable/ic_add"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+</FrameLayout>

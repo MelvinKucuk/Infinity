@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Infinity</string>
+    <string name="nombreApp">Infinity</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="nombreCancion">Toxicity - System of a Down</string>
+    <string name="playlist">Tu Playlist</string>
+    <string name="tuCuenta">Tu Cuenta</string>
+    <string name="tusPlaylist">Tus Playlist</string>
+    <string name="loginConRedes">Podes Iniciar Sesion con las siguientes Redes Sociales</string>
+    <string name="home">Home</string>
+    <string name="playlists">Playlists</string>
+    <string name="artistas">Artistas</string>
+    <string name="albums">Albums</string>
+    <string name="categorias">Categorias</string>
+    <string name="generos">Generos</string>
+    <string name="buscar">Buscar</string>
+    <string name="canciones">Canciones</string>
+    <string name="porTitulo">Por Titulo</string>
+    <string name="porArtista">Por Artista</string>
+    <string name="porAlbum">Por Album</string>
+    <string name="reproductor">Reproductor</string>
+    <string name="mostrarAlbums">Mostrar todos los Albums</string>
+    <string name="mostrarCanciones">Mostrar todas las Canciones</string>
+    <string name="mostrarArtistas">Mostrar todos los Artistas</string>
+    <string name="filtro">Filtro</string>
+    <string name="facebook_app_id">595828340875729</string>
+    <string name="fb_login_protocol_scheme">fb595828340875729</string>
+    <string name="logout">Logout</string>
+    <string name="nuevaPlaylist">Nueva Playlist</string>
+    <string name="crearPlaylist">Crear Playlist</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="creacionPlaylist">Se creo </string>
+    <string name="nombrePlaylist">Nombra tu Playlist</string>
+    <string name="elegiPlaylist">Elegi la Playlist</string>
+    <string name="agregoCancion">Se agrego a </string>
+    <string name="eliminarCancion">Se elimino la cancion</string>
+    <string name="deshacer">Deshacer</string>
+    <string name="eliminarPlaylist">Se elimino la playlist</string>
+    <string name="compartir">Compartir</string>
+    <string name="escuchaCancion">Escucha esta cancion</string>
+    <string name="compartirCancion">Compartir cancion</string>
+    <string name="iniciaSesion">Inicia Sesion</string>
+    <string name="idClient">192809479498-2v17lemoacvqelta67df81g6af78fcge.apps.googleusercontent.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="genero">Elegí Géneros , Albums , Artistas</string>
+    <string name="busqueda">Buscá Generos , Albums y Artistas en forma simultánea, hacé Handshake al celular y cambiá de tema ! </string>
+    <string name="registrate">Registrate y guardá tus PlayList y Favoritos </string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac consectetur dui. Integer lacinia sapien quam, ut iaculis neque consequat in.</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

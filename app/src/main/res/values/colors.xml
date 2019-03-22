@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#1b1b1b</color>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryLight">#6d6d6d</color>
+    <color name="colorAccent">#ffea00</color>
+    <color name="colorAccentLight">#ffff56</color>
+    <color name="colorAccentDark">#c7b800</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="separardorPlaylist">#27000000</color>
+    <color name="hint">#9e9e9e</color>
+
+    <!--
+    Negro Con Rojo
+
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorPrimaryLight">#484848</color>
+    <color name="colorAccent">#b71c1c</color>
+    <color name="colorAccentLight">#f05545</color>
+    <color name="colorAccentDark">#7f0000</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#ffffff</color>-->
+
+    <!--<color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#002984</color>
+    <color name="colorPrimaryLight">#757de8</color>
+    <color name="colorAccent">#4caf50</color>
+    <color name="colorAccentLight">#80e27e</color>
+    <color name="colorAccentDark">#087f23</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>-->
+
+    <color name="negro">#000000</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="gris">#777777</color>
+
+</resources>

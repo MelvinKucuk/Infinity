@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.AlbumElementoFragment">
+
+    <ImageView
+        android:id="@+id/albumFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:src="@drawable/album1"
+        android:scaleType="centerCrop"
+        android:elevation="8dp"/>
+
+</FrameLayout>

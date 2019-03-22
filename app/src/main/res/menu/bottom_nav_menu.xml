@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemHome"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/itemBuscar"
+        android:title="@string/buscar"
+        android:icon="@drawable/ic_buscar"
+        />
+
+    <item
+        android:id="@+id/itemPlaylist"
+        android:title="@string/playlists"
+        android:icon="@drawable/ic_playlist_negro"
+        />
+
+    <!--<item
+        android:id="@+id/itemReproductor"
+        android:title="@string/reproductor"
+        android:icon="@drawable/play"
+        />-->
+
+</menu>

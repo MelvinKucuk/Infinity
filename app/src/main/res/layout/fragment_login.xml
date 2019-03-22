@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".view.MainActivity">
+
+    <!---
+
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:clickable="true"
+
+    Estos 3 atributos sirven para que el focus no vaya directo
+    a los EditText y cuando el focus esta en un EditText y
+    tocas afeura de este, se vaya el focus
+
+    -->
+
+    <ImageView
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fist"
+        android:background="@color/colorPrimary"/>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:weightSum="100"
+                android:background="#b2000000">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="50dp"
+                    android:layout_weight="20"
+                    android:gravity="bottom"
+                    android:hint="@string/username"
+                    android:textColorHint="@color/primaryTextColor">
+
+                    <EditText
+                        android:id="@+id/editTextUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="30sp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/inputPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginHorizontal="50dp"
+                    android:layout_weight="20"
+                    android:gravity="bottom"
+                    android:hint="@string/password"
+                    android:textColorHint="@color/primaryTextColor"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <EditText
+                        android:id="@+id/editTextPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:inputType="textPassword"
+                        android:textColor="@color/primaryTextColor"
+                        android:textSize="30sp"
+                        />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <ImageView
+                    android:id="@+id/botonLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="20"
+                    android:src="@drawable/boton_login" />
+
+                <ImageView
+                    android:id="@+id/botonRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:src="@drawable/boton_register"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="20"
+                    android:gravity="bottom"
+                    android:text="@string/loginConRedes"
+                    android:textAlignment="center"
+                    android:textColor="@color/blanco"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:id="@+id/loginBottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center|center_vertical"
+                    android:orientation="vertical"
+                    >
+
+
+                    <com.facebook.login.widget.LoginButton
+                        android:id="@+id/login_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:layout_marginHorizontal="30dp"
+                        />
+
+
+
+                    <com.google.android.gms.common.SignInButton
+                        android:id="@+id/sign_in_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:gravity="start"
+                        android:textAlignment="viewStart"
+                        android:layout_weight="1"
+                        android:layout_marginHorizontal="30dp"
+                        android:layout_marginBottom="10dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+</FrameLayout>
